@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Syne+Mono & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 body {
     background-color: rgb(110, 110, 110);
@@ -40,21 +44,32 @@ nav a:hover {
     text-shadow: 1px 1px 1px black;
 }
 
-main { 
-    background-color: rgb(31, 31, 31);
-    display: block;
-    width: 1200px;
+
+main {
+    min-width: 237px;
+    max-width: 1000px;
     margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(114, 56, 248, 0.849);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.519);
+    border-radius: 0px 0px 10px 10px;
+    font-size: 1.3em;
+    font-family: 'Rubik Mono One', monospace;
 }
 
-li {
-    color: white;
-    margin-right:
+aside ul {
+    columns: 2;
 }
 
-li a {
-    color: white;
+aside li {
+    color: black;
+}
+
+aside li a {
+    color: black;
     text-decoration-line: none;
+    font-family: 'Vina Sans', sans-serif;
 }
 
 footer {
