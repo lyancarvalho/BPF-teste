@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 body {
-    background-color: rgb(110, 110, 110);
+    background-color: rgb(41, 41, 41);
     margin: auto;
 }
 
@@ -51,7 +51,7 @@ main {
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: rgba(114, 56, 248, 0.849);
+    background-color: #3633ffd8;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.519);
     border-radius: 0px 0px 10px 10px;
     font-size: 1.3em;
@@ -70,11 +70,4 @@ aside li a {
     color: black;
     text-decoration-line: none;
     font-family: 'Vina Sans', sans-serif;
-}
-
-footer {
-    color: rgb(0, 0, 0);
-    font-size: 2em;
-    background-color: darkgray;
-    text-align: center;
 }
