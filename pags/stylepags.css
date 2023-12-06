@@ -28,7 +28,7 @@ nav {
 }
 
 nav a {
-    padding-top: 10px;
+    padding-top: 8px;
     padding-right: 20px;
     padding-bottom: 11px;
     padding-left: 20px;
@@ -39,10 +39,11 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(83, 83, 83);
-    background-color: #8484eb;
+    color: rgb(0, 255, 179);
+    background-color: #0036e973;
     text-shadow: 1px 1px 1px black;
 }
+
 
 main {
     min-width: 237px;
@@ -62,15 +63,11 @@ main {
 main img {
     float: left;
     margin-left: -47px;
-    margin-top: -315px;
-}
-
-main a:hover {
-    color: aquamarine;
+    margin-top: -180px;
 }
 
 aside ul {
-    columns: 2;
+    columns: 1;
 }
 
 aside li {
@@ -81,4 +78,8 @@ aside li a {
     color: rgb(255, 255, 255);
     text-decoration-line: none;
     font-family: 'Vina Sans', sans-serif;
+}
+
+main a:hover {
+    color: aquamarine;
 }
